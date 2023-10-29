@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/tomas-mazak/goslb/goslb"
+	"github.com/newerdog/goslb/goslb"
 )
 
 func ip(s string) net.IP {
