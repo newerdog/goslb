@@ -1,6 +1,6 @@
 package main
 
-import "github.com/tomas-mazak/goslb/cmd"
+import "github.com/newerdog/goslb/cmd"
 
 func main() {
 	cmd.Execute()
