@@ -5,7 +5,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"os"
-	"github.com/tomas-mazak/goslb/goslb"
+	"github.com/newerdog/goslb/goslb"
 	"log"
 )
 
