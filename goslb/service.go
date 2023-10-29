@@ -64,9 +64,9 @@ func (s *Service) GetOrdered(clientIP net.IP) []net.IP {
     	ret[i], ret[j] = ret[j], ret[i]
 	})
 
-	// Return maximum 3 responses
+	// Return maximum 3 responses // Rewire 3 to 1 
 	if len(ret) > 3 {
-		return ret[:3]
+		return ret[:1]
 	}
 	return ret
 }
