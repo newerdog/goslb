@@ -19,7 +19,7 @@ Setup
   * Install [Docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/)
   * Clone this repo:
 ```
-git clone https://github.com/tomas-mazak/goslb.git
+git clone https://github.com/newerdog/goslb.git
 cd goslb/examples/simple
 ```
   * Start the docker cotainers:
